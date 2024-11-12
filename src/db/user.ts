@@ -48,7 +48,7 @@ const UserSchema = new Schema<IUser>(
     },
     theme: {
       type: String,
-      enum: ["ligh", "dark"],
+      enum: ["light", "dark"],
       default: "light",
     },
     languageCode: {
